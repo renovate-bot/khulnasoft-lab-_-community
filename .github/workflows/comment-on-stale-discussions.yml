@@ -21,4 +21,4 @@ jobs:
       - name: Comment on discussions
         run: .github/actions/comment
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
